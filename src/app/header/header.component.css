@@ -1,0 +1,12 @@
+/* Header estilos */
+header {
+    padding: 20px 0px;
+    text-align: center;
+    background-color: orange;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+}
