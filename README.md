@@ -10,5 +10,5 @@ Se ejecuta con el comando `ng serve`. El cual habilita la ruta `http://localhost
 
 Es una prueba de conocimiento que se trata de una aplicación que consume la API pública Pokeapi (https://pokeapi.co/) y muestra 150 pokemones 
 con una imagen y algunos de sus valores como son: nombre, tipo de pokemón, salud y poder de ataque. También incluye un encabezado con el nombre del 
-proyecto y un formulario para consultar dos pokemones por su nombre que no se encuentra funcional.
+proyecto y un formulario que no se encuentra funcional, con el fin de consultar dos pokemones por su nombre.
 
