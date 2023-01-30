@@ -4,7 +4,11 @@ Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-
 
 ## Development server
 
-Se ejecuta con el comando `ng serve`. El cual habilita la ruta `http://localhost:4200/`.
+Es necesario tener instalado NodeJS con el manejador de paquetes npm. En la terminal se comprueba su versión con el comando `node -v`.
+
+Es necesario instalar Angular, puede instalarse con el comando `npm i -g @angular/cli@9.0.1`
+
+Se ejecuta con el comando `ng serve` una vez dentro del folder que contiene el proyecto. Este abre en el navegador la ruta `http://localhost:4200/`.
 
 ## Summary
 
