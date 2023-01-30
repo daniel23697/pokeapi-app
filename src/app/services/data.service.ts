@@ -11,14 +11,19 @@ export class DataService {
     private http: HttpClient
   ) { }
 
-  // Obtener pokemons
+  // Obtener 150 pokemons
   getPokemons() {
-    return this.http.get(`https://pokeapi.co/api/v2/pokemon?limit=10`);
+    return this.http.get(`https://pokeapi.co/api/v2/pokemon?limit=150`);
   }
 
   // Método para obtener por nombre
   getByName(name: string) {
     return this.http.get(`https://pokeapi.co/api/v2/pokemon/${name}`);
+  }
+
+  // Método para obtener el tipo de pokemon
+  getByType(name: string) {
+    return this.http.get(`https://pokeapi.co/api/v2/type/${name}`);
   }
 
 }
